@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="register">
+        <form action="#">
+            <h1>Register</h1>
+            <label for="email">email</label>
+            <input type="text" id="email-register">
+            <h1></h1>
+            <label for="password">password</label>
+            <input type="text" id="password-register">
+
+            <h1></h1>
+            <button id="send-register-btn">Register</button>
+            <h1></h1>
+        </form>
+    </div>
+
+    <div class="auth">
+        <form action="#">
+            <h1>Login</h1>
+            <label for="email">email</label>
+            <input type="text" id="email-login">
+            <h1></h1>
+            <label for="password">password</label>
+            <input type="text" id="password-login">
+
+            <h1></h1>
+            <button id="send-auth-btn">Login</button>
+            <h1></h1>
+            <h5 id="token-login"></h5>
+        </form>
+        <h1></h1>
+    </div>
+
+    <div class="post" id="form">
+            <label for="name">Name:</label>
+            <input name="name" id="name" type="text" class="modal-field" placeholder="Name">
+            <br><br>
+            <label for="server">server</label>
+            <input name="server" id="server" type="text" class="modal-field" placeholder="Server">
+            <br><br>
+            <label for="lane">lane</label>
+            <input name="lane" id="lane" type="text" class="modal-field" placeholder="Lane">
+            <br><br>
+            <label for="phone">phone</label>
+            <input name="phone" id="phone" type="text" class="modal-field" placeholder="Phone">
+            <br><br>
+            <button id="submit">Enviar</button>
+    </div>
+
+
+    <div class="get">
+        <button id="get-button">GET</button>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
